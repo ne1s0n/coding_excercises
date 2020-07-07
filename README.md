@@ -1,2 +1,2 @@
-# coding_excercises
-A public repo of coding exercises
+# Coding excercises
+A public repo of coding exercises.
