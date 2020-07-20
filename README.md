@@ -10,6 +10,6 @@ These exercises showcase some basic python concepts, plus the use of most common
 - [**Words**](python/words.ipynb): word count and other text statistics
     - Topics: lists, dictionaries, Pandas dataframes, zip archives, remote and local files, string manipulation
 - [**Image**](python/image.ipynb): image manipulation
-    - Topics: numpy arrays, matplotlib pyplot, Pillon (PIL) and images in general, plus remote and local saving
+    - Topics: numpy arrays, matplotlib pyplot, Pillow (PIL) and images in general, plus remote and local saving
 
 
