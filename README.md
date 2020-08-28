@@ -3,7 +3,7 @@ Coding exercises in preparation for the upcoming course [Introduction to deep le
 
 ## Python - basic skills
 
-These exercises showcase some basic Python concepts, plus the use of most common modules. They are in the form of [jupyter notebook](https://jupyter.org/) and can be either downloaded and run locally or online via platforms such as [Google Colab](https://colab.research.google.com/) (a Google account is required).
+These exercises showcase some basic Python concepts, plus the use of most common modules. They are in the form of [jupyter notebook](https://jupyter.org/) and can be either downloaded and run locally or online via platforms such as [Binder](https://mybinder.org/) or [Google Colab](https://colab.research.google.com/) (a Google account is required).
 
 - [**Balance**](python/balance.ipynb): solving a simple physics problem
     - Topics: lists, loops, functions, execution times and plots
