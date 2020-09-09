@@ -1,0 +1,15 @@
+
+Data downloaded from: http://misztal.edu.pl/software/databases/dibas/
+This are only five species of the 33 available.
+
+Original images were .tif, I changed format to .png using imagemagick.
+Also, I standardized file structure so that each zip file contains a folder.
+
+All credits go to the original poster: Krzysztof Paweł Misztal
+If you use this dataset for publication please cite:
+
+B. Zieliński, A. Plichta, K. Misztal, P. Spurek, M. Brzychczy-Włoch, and D. Ochońska 
+Deep learning approach to bacterial colony classification
+PLOS ONE, 12(9), 1-14, 2017 
+
+
