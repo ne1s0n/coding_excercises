@@ -2,7 +2,8 @@
 Data downloaded from: http://misztal.edu.pl/software/databases/dibas/
 This are only five species of the 33 available.
 
-Original images were .tif, I changed format to .png using imagemagick.
+Original images were .tif, I changed format to .png using imagemagick
+and resized all image widths to 800 pixels.
 Also, I standardized file structure so that each zip file contains a folder.
 
 All credits go to the original poster: Krzysztof Paweł Misztal
