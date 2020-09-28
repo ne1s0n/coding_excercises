@@ -4,6 +4,13 @@ of a trained deep learning model for image recognition
 on independent test data
 """
 
+"""
+force keras to use CPU instead of GPU
+(comment out if you don't want this)
+"""
+import os
+os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"   # see issue #152
+os.environ["CUDA_VISIBLE_DEVICES"] = ""
 
 """
 Import libraries
