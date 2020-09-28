@@ -40,3 +40,6 @@ vignettes/*.pdf
 
 # Python notebook checkpoints
 python/.ipynb_checkpoints/
+
+# data
+data/*
