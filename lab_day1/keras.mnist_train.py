@@ -38,8 +38,11 @@ Input data
 # the data, split between train and test sets
 (X_train, y_train), (X_test, y_test) = mnist.load_data()
 
+## subsampling the data
 X_train = X_train[0:3000,]
 y_train = y_train[0:3000]
+X_test = X_test[0:1000,]
+y_test = y_test[0:1000]
 
 print("Size of the training set")
 print(X_train.shape)

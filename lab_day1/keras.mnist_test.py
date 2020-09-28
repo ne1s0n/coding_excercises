@@ -32,6 +32,11 @@ img_rows, img_cols = 28, 28
 Test data
 """
 (X_train, y_train), (X_test, y_test) = mnist.load_data()
+
+## subsampling the data
+X_test = X_test[0:1000,]
+y_test = y_test[0:1000]
+
 print("Size of the test set")
 print(X_test.shape)
 
