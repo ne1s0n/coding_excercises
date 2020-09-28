@@ -39,8 +39,8 @@ Input data
 (X_train, y_train), (X_test, y_test) = mnist.load_data()
 
 ## subsampling the data
-X_train = X_train[0:3000,]
-y_train = y_train[0:3000]
+X_train = X_train[0:5000,]
+y_train = y_train[0:5000]
 X_test = X_test[0:1000,]
 y_test = y_test[0:1000]
 
