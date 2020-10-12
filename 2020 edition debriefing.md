@@ -11,6 +11,7 @@ Things we (Nelson and Filippo) would improve:
     * learning rate decay
     * 1D convolution for time-series and genotypes
     * p > n problems: how to do this with DL; is there an advantage over other ML methods? Or is DL better at making use of problems where n is very large?
+    * drawing on experience with unstructured text data, we could add a session (if there is a 5th day) on RNN: unstructured text data are not common in biology, I am afraid, but we may extend RNN to longitudinal data / time series / forecasting (to be considered)
 * keep the drawing with the pen agile. One student told that sometimes it took too much time
 * "finetune" the pace of lectures (sometimes too quick, especially for me -Filippo- in the first days)
 * more guided/shared exercises. The teacher writes, the student tell what to do (give it a shot to volunteering students to lead the writing? if any ...)
