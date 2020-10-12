@@ -13,3 +13,4 @@ Things I (Nelson) would improve:
 * keep the drawing with the pen agile. One student told that sometimes it took too much time
 * more guided/shared exercises. The teacher writes, the student tell what to do
 * a fifth day?
+* complete prep exercises on normalization (and maybe others)
