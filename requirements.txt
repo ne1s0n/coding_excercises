@@ -1,5 +1,5 @@
 requests==2.24.0
-numpy==1.18.5
+numpy>=1.18.5
 matplotlib==3.2.2
 Pillow==8.1.1
 tensorflow>=2.4.0
