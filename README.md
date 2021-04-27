@@ -7,6 +7,9 @@ Exercises are in the form of [jupyter notebooks](https://jupyter.org/) and can b
 
 These exercises showcase some basic Python concepts, plus the use of most common modules. 
 
+Launch everything on [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ne1s0n/coding_excercises/HEAD)(it may take a few minutes to load)
+
+
 - [**Balance**](python/balance.ipynb): solving a simple physics problem
     - Topics: lists, loops, functions, execution times and plots
 - [**Words**](python/words.ipynb): word count and other text statistics
