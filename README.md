@@ -16,6 +16,11 @@ This section moved to the code-only repo [bioinformateachers](https://github.com
 All codes used during the lessons plus some extra exercises and solutions are found in the
 various lab folders (e.g. [lab_day1](lab_day1/)).
 
+## Course Timetable
+
+**Day 1**
+- Lecture 0: Introducing the course,the instructors and the participants [day1_block00 Introductions]
+
 
 
 
