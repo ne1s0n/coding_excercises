@@ -28,9 +28,12 @@ various lab folders (e.g. [lab_day1](lab_day1/)).
   -  [keras.mnist_train.py](lab_day1/keras.mnist_train.py) [test.py](lab_day1/keras.mnist_test.py)
   -  [day1_code01 keras_MNIST](lab_day1/day1_code01%20keras_MNIST.ipynb)
 - Lecture 3: Supervised learning
-- Lecture 4: Building blocks 1
-- Lecture 5: Introduction to Keras
+- Lecture 4: Building blocks 1 [day1_block04 Building blocks of DL]
+- Lecture 5: Introduction to Keras [day1_block05 Keras]
 - Lab 3: Play with keras + Tensorflow Playground
+  - [day1_block06 day1 wrap-up]
+  - [day1_code02 keras basics]
+  - [Tensorflow playground](https://playground.tensorflow.org/)
 
 
 
