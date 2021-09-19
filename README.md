@@ -23,6 +23,10 @@ various lab folders (e.g. [lab_day1](lab_day1/)).
 - Lab 0: Introduction to Jupyter notebooks
 - Lecture 1: Introduction to deep learning [day1_block01 Introduction to DL]
 - Lab 1: Python libraries [day1_code00 basic python](https://github.com/ne1s0n/coding_excercises/blob/master/lab_day1/day1_code00%20basic%20python%20%5BEXERCISE%5D.ipynb)
+- Lecture 2 + Lab 2: MNIST data problem
+  -  [day1_block02 A DL-NN for image recognition]
+  -  [keras.mnist_train] [test.py]
+  -  [day1_code01 keras_MNIST](lab_day1/day1_code01 keras_MNIST.ipynb)
 
 
 
