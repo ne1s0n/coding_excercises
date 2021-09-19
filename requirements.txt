@@ -1,0 +1,10 @@
+requests==2.24.0
+numpy>=1.18.5
+matplotlib==3.2.2
+Pillow==8.3.2
+tensorflow>=2.4.0
+sklearn==0.0
+Keras==2.4.3
+mlxtend==0.17.3
+pandas==1.0.5
+seaborn==0.11.0
