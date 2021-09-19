@@ -22,7 +22,7 @@ various lab folders (e.g. [lab_day1](lab_day1/)).
 - Lecture 0: Introducing the course,the instructors and the participants [day1_block00 Introductions]
 - Lab 0: Introduction to Jupyter notebooks
 - Lecture 1: Introduction to deep learning [day1_block01 Introduction to DL]
-- Lab 1: Python libraries [day1_code00 basic python [EXERCISE]](lab_day1/day1_code00 basic python [EXERCISE].ipynb)
+- Lab 1: Python libraries [day1_code00 basic python EXERCISE](lab_day1/day1_code00 basic python [EXERCISE].ipynb)
 
 
 
