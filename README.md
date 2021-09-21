@@ -42,7 +42,7 @@ various lab folders (e.g. [lab_day1](lab_day1/)).
 - Lecture 7b: Deep neural networks	[day2_block02 Neural networks models](slides)
 - Lab 5: Hands-on neural networks models [day2_code02 keras shallow neural networks](lab_day2)
 - Lecture 8 Multiclass classification and softmax regression [day2_block03 Multiclass classification](slides)
-- lab 6: Multiclass classification and softmax regression [day2_block03 Multiclass classification](lab_day2) + [day2_code03 keras multiclass classification](lab_day2)
-- Students exercise	Neural networks models [day2_code04 neural networks [EXERCISE]](lab_day2)
+- Lab 6: Multiclass classification and softmax regression [day2_block03 Multiclass classification](lab_day2) + [day2_code03 keras multiclass classification](lab_day2)
+- Students exercise: Neural networks models [day2_code04 neural networks [EXERCISE]](lab_day2)
 
 
