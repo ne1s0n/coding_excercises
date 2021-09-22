@@ -45,4 +45,4 @@ various lab folders (e.g. [lab_day1](lab_day1/)).
 - Lab 6: Multiclass classification and softmax regression [day2_block03 Multiclass classification](lab_day2) + [day2_code03 keras multiclass classification](lab_day2)
 - Students exercise: Neural networks models [day2_code04 neural networks [EXERCISE]](lab_day2)
 
-
+**Day 3**
