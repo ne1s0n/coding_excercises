@@ -48,3 +48,6 @@ various lab folders (e.g. [lab_day1](lab_day1/)).
 **Day 3**
 - Lecture 9: Cross-validation	[day3_block01 Crossvalidation](slides)
 - Lab 7: Practical cross-validation with deep learning [day3_code01 heart disease crossv.ipynb](lab_day3)
+- Lecture 10: Building blocks 2 [day3_block02 Building blocks of DL #2](slides)
+- Lab 8: Looking inside convolutions [day3_code02 inside convolution.ipynb](lab_day3)
+- Exercise: Deep learning models [day3_code03 heart disease crossv [EXERCISE].ipynb](lab_day3)
