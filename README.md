@@ -46,3 +46,4 @@ various lab folders (e.g. [lab_day1](lab_day1/)).
 - Students exercise: Neural networks models [day2_code04 neural networks [EXERCISE]](lab_day2)
 
 **Day 3**
+- Lecture 9: Cross-validation	[day3_block01 Crossvalidation](slides)
