@@ -54,7 +54,9 @@ various lab folders (e.g. [lab_day1](lab_day1/)).
 - Day 3 wrap-up discussion [day3_block03 day 3 wrap-up](slides)
 
 **Day 4**
-- Lecture 11 Data generators and data augmentation [day4_block01 Data generators and data augmentation](slides) [day4_code01 data augmentation [EXERCISE]](lab_day4)
+- Lecture 11 Data generators and data augmentation
+    - [day4_block01 Data generators and data augmentation](slides)
+    - [day4_code01 data augmentation [EXERCISE]](lab_day4)`
 - Lecture 12 Transfer learning [day4_block02 Architectures and transfer learning](slides)
 - Lecture 13 Recipe for a good project	[day4_block04 The recipe for a good project](slides)
 - Lab 9	Recap exercise [day4_code02 chest x rays (data augm, regul) [EXERCISE]](lab_day4)
