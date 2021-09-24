@@ -63,3 +63,16 @@ various lab folders (e.g. [lab_day1](lab_day1/)).
 - Lecture 14 Double descent	[day4_block03 Bias-Variance Trade-off and double descent](slides)
 - Lab 10 part I	Deep learning for regression [day4_code03 keras regression [EXERCISE]](lab_day4)
 - Lab 10 part II Wrap-up discussion: what we did, what we didn't do [day4_block05 day 4 wrap-up](slides)
+
+**Day 5**
+- Lecture 15: RNN theory [day5_block01 RNN models](slides)
+- Lab 11: RNN lab
+  - [day5_code01 RNN-1](lab_day5)
+  - [day5_code01 RNN-2](lab_day5)
+  - [day5_code01 RNN-3](lab_day5)
+- Lecture 16: Segmentation + demo
+  - [day5_block02 Image Segmentation](slides)
+  - [day5_code04 segmentation metrics](lab_day5)
+  - [day5_code05 U-Net](lab_day5)
+- Kahoot Quiz
+- Wrap-up discussion
