@@ -70,3 +70,9 @@ various lab folders (e.g. [lab_day1](lab_day1/)).
   - [day5_code01 RNN-1](lab_day5)
   - [day5_code01 RNN-2](lab_day5)
   - [day5_code01 RNN-3](lab_day5)
+- Lecture 16: Segmentation + demo
+  - [day5_block02 Image Segmentation](slides)
+  - [day5_code04 segmentation metrics](lab_day5)
+  - [day5_code05 U-Net](lab_day5)
+- Kahoot Quiz
+- Wrap-up discussion
