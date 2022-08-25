@@ -8,13 +8,15 @@ Created on Thu Aug 25 12:23:05 2022
 
 """
 Python script aimed at importing libraries to be used in the Google Colab Jupyter notebooks
+and at defining all functions needed for the various steps of the building
+of our first deep learning model for image recognition
 """
 
 import os
 import argparse
 
 # Create the parser
-parser = argparse.ArgumentParser(description='Import data for deep learning')
+parser = argparse.ArgumentParser(description='Import libraries, data and functions for deep learning')
 
 # Add arguments
 parser.add_argument('-g', '--import_all', type=str, required=False, default='yes', 
@@ -53,6 +55,7 @@ from matplotlib import pyplot as plt
 ####################################
 
 ## FUNCTIONS
+print("Defining functions")
 def set_seeds(n):
 
   #general random seed
@@ -140,12 +143,12 @@ def train_model(model,X_train,y_train,batch_size,n_epochs,verbose):
 
     return model
 
-def evaluate_model(model,X_test;y_test):
+def evaluate_model(model,X_test,y_test):
 
     score = model.evaluate(X_test, y_test, verbose=0)
 
     return score
 
-
+##########################################################
 
 print("DONE!")
