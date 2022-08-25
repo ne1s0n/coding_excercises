@@ -162,6 +162,8 @@ def evaluate_model(model,X_test,y_test):
     #rows are true values, columns are predicted values, numbering starts from zero
     confusion_matrix = sklearn.metrics.confusion_matrix(true_classes, predicted_classes)
 
+    print("model evaluated")
+    
     return (score, confusion_matrix)
 
 
