@@ -121,12 +121,31 @@ def build_model(input_shape, num_classes):
 
     return model
 
-def compile_model():
+def compile_model(model):
 
     model.compile(
             loss=tensorflow.keras.losses.categorical_crossentropy,
             optimizer=tf.keras.optimizers.Adadelta(),
             metrics=['accuracy'])
+
+    return model
+
+
+def train_model(model,X_train,y_train,batch_size,n_epochs,verbose):
+
+    model.fit(X_train, y_train,
+          batch_size=batch_size,
+          epochs=num_epochs,
+          verbose=verbose)
+
+    return model
+
+def evaluate_model(model,X_test;y_test):
+
+    score = model.evaluate(X_test, y_test, verbose=0)
+
+    return score
+
 
 
 print("DONE!")
