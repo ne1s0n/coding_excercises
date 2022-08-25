@@ -138,7 +138,7 @@ def train_model(model,X_train,y_train,batch_size,n_epochs,verbose):
 
     model.fit(X_train, y_train,
           batch_size=batch_size,
-          epochs=num_epochs,
+          epochs=n_epochs,
           verbose=verbose)
 
     return model
