@@ -103,7 +103,7 @@ def preprocess(X_train,X_test,y_train,y_test,img_rows,img_cols,num_classes):
     return(X_train,X_test,y_train,y_test,input_shape)
 
 
-def build_model(input_shape):
+def build_model(input_shape, num_classes):
 
     model = Sequential()
     model.add(
