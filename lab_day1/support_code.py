@@ -38,10 +38,14 @@ from keras.layers import Dense, Dropout, Activation, Flatten
 from keras.layers import Conv2D, MaxPooling2D
 from keras import backend as K # needed for image_data_format()
 from keras.datasets import mnist
-  
+from tensorflow.keras.utils import to_categorical
+ 
 ## numpy
 import numpy as np
 from numpy.random import seed
+
+## matplotlib
+from matplotlib import pyplot as plt
 
 #### Set up of parameters and libraries
 ## SETTINGS #######################
@@ -66,5 +70,34 @@ def load_data(ntrain,ntest):
     y_test = y_test[0:ntest]
 
     return (X_train,y_train,X_test,y_test)
+
+
+def set_parameters(img_rows,img_cols,n_classes,batch_size,n_epochs):
+    
+    return (img_rows,img_cols,n_classes,batch_size,n_epochs)
+
+
+def preprocess(X_train,X_test,y_train,y_test,img_rows,img_cols,num_classes):
+
+    if K.image_data_format() == 'channels_first': #from keras backend as K
+        X_train = X_train.reshape(X_train.shape[0], 1, img_rows, img_cols)
+        X_test = X_test.reshape(X_test.shape[0], 1, img_rows, img_cols)
+        input_shape = (1, img_rows, img_cols)
+    else:
+        X_train = X_train.reshape(X_train.shape[0], img_rows, img_cols, 1)
+        X_test = X_test.reshape(X_test.shape[0], img_rows, img_cols, 1)
+        input_shape = (img_rows, img_cols, 1)
+
+    X_train = X_train.astype('float32')
+    X_test = X_test.astype('float32')
+    X_train /= 255 #max value of pixel intensity
+    X_test /= 255 #max value of pixel intensity
+
+    # convert class vectors to binary class matrices (also known as OHE - One Hot Encoding)
+    y_train = to_categorical(y_train, num_classes)
+    y_test = to_categorical(y_test, num_classes)
+
+    return(X_train,X_test,y_train,y_test)
+
 
 print("DONE!")
