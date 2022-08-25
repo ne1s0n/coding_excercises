@@ -97,7 +97,7 @@ def preprocess(X_train,X_test,y_train,y_test,img_rows,img_cols,num_classes):
     y_train = to_categorical(y_train, num_classes)
     y_test = to_categorical(y_test, num_classes)
 
-    return(X_train,X_test,y_train,y_test)
+    return(X_train,X_test,y_train,y_test,input_shape)
 
 
 print("DONE!")
