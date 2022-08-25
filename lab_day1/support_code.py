@@ -49,6 +49,9 @@ from numpy.random import seed
 ## matplotlib
 from matplotlib import pyplot as plt
 
+## sklearn
+import sklearn.metrics
+
 #### Set up of parameters and libraries
 ## SETTINGS #######################
 
@@ -146,8 +149,19 @@ def train_model(model,X_train,y_train,batch_size,n_epochs,verbose):
 def evaluate_model(model,X_test,y_test):
 
     score = model.evaluate(X_test, y_test, verbose=0)
+    #asking our model to return its predictions for the test set
+    predictions = model.predict(X_test)
 
-    return score
+    #confusion_matrix function requires actual classes labels (expressed as int)
+    #and not probabilities as we handled so far
+    predicted_classes = predictions.argmax(axis=1)
+    true_classes = y_test.argmax(axis=1)
+
+    #rows are true values, columns are predicted values, numbering starts from zero
+    confusion_matrix = sklearn.metrics.confusion_matrix(true_classes, predicted_classes)
+
+    return (score, confusion_matrix)
+
 
 ##########################################################
 
