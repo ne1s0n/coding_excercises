@@ -79,6 +79,7 @@ def set_parameters(img_rows,img_cols,n_classes,batch_size,n_epochs):
 
 def preprocess(X_train,X_test,y_train,y_test,img_rows,img_cols,num_classes):
 
+    print("declare the correct depth of the image (channels)")
     if K.image_data_format() == 'channels_first': #from keras backend as K
         X_train = X_train.reshape(X_train.shape[0], 1, img_rows, img_cols)
         X_test = X_test.reshape(X_test.shape[0], 1, img_rows, img_cols)
@@ -88,16 +89,44 @@ def preprocess(X_train,X_test,y_train,y_test,img_rows,img_cols,num_classes):
         X_test = X_test.reshape(X_test.shape[0], img_rows, img_cols, 1)
         input_shape = (img_rows, img_cols, 1)
 
+    print("normalize input data")
     X_train = X_train.astype('float32')
     X_test = X_test.astype('float32')
     X_train /= 255 #max value of pixel intensity
     X_test /= 255 #max value of pixel intensity
 
     # convert class vectors to binary class matrices (also known as OHE - One Hot Encoding)
+    print("prepare the categorical output matrix")
     y_train = to_categorical(y_train, num_classes)
     y_test = to_categorical(y_test, num_classes)
 
     return(X_train,X_test,y_train,y_test,input_shape)
+
+
+def build_model(input_shape):
+
+    model = Sequential()
+    model.add(
+          Conv2D(32, kernel_size=(3, 3),
+          activation='relu',
+          input_shape=input_shape))
+
+    model.add(Conv2D(64, (3, 3), activation='relu'))
+    model.add(MaxPooling2D(pool_size=(2, 2)))
+    model.add(Dropout(0.25))
+    model.add(Flatten())
+    model.add(Dense(128, activation='relu'))
+    model.add(Dropout(0.5))
+    model.add(Dense(num_classes, activation='softmax'))
+
+    return model
+
+def compile_model():
+
+    model.compile(
+            loss=tensorflow.keras.losses.categorical_crossentropy,
+            optimizer=tf.keras.optimizers.Adadelta(),
+            metrics=['accuracy'])
 
 
 print("DONE!")
