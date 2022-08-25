@@ -46,21 +46,25 @@ from numpy.random import seed
 #### Set up of parameters and libraries
 ## SETTINGS #######################
 
-# where the kinship data are stored
-#remote_data_folder = 'http://www.jackdellequerce.com/data/cattle/kinships_sorted/'
-#remote_data_folder = os.path.join(args.remote_folder,'')
-
-# where to place the data
-#downloaded_data = '/content/data/'
-#downloaded_data = args.target_dir
-#downloaded_data = '/home/filippo/Documents/deep_learning_for_breeding/'
-
-# specific dataset
-#dataset='cattle/'
-#dataset = args.dataset
-
-#base_dir = downloaded_data + dataset
-#base_dir = os.path.join(downloaded_data, dataset, '')
 ####################################
+
+## FUNCTIONS
+def set_seeds(n):
+
+  #general random seed
+  seed(n)
+  #tensorflow-specific seed
+  tf.random.set_seed(n)
+
+def load_data(ntrain,ntest):
+    # the data, split between train and test sets
+    (X_train, y_train), (X_test, y_test) = mnist.load_data()
+
+    X_train = X_train[0:ntrain,]
+    y_train = y_train[0:ntrain]
+    X_test = X_test[0:ntest,]
+    y_test = y_test[0:ntest]
+
+    return (X_train,y_train,X_test,y_test)
 
 print("DONE!")
