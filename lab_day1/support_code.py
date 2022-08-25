@@ -134,6 +134,8 @@ def compile_model(model):
             optimizer=tf.keras.optimizers.Adadelta(),
             metrics=['accuracy'])
 
+    print("model compiled!")
+
     return model
 
 
