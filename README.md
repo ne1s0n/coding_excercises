@@ -35,7 +35,7 @@ various lab folders (e.g. [lab_day1](lab_day1/)).
   - [Tensorflow playground](https://playground.tensorflow.org/)
 
 **Day 2**
-- Lab 2 recap: the MNIST functions explained [day2_code00 keras_MNIST_detailed](lab_day2/day2_code00 keras_MNIST_detailed.ipynb)
+- Lab 2 recap: the MNIST functions explained [day2_code00 keras_MNIST_detailed](lab_day2/day2_code00_keras_MNIST_detailed.ipynb)
 - Lecture 6: Logistic regression	[day2_block01 logistic regression and binary classification](slides)
 - Lab 4: Hands-on logistic regression [day2_code01 logistic regression iris [EXERCISE]](lab_day2)
 - Lecture 7: From logistic regression to neural networks [day2_block02 Neural networks models](slides)
