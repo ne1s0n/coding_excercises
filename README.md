@@ -20,9 +20,8 @@ various lab folders (e.g. [lab_day1](lab_day1/)).
 
 **Day 1**
 - Lecture 0: Introducing the course,the instructors and the participants [day1_block00 Introductions](slides)
-- Lab 0: Introduction to Jupyter notebooks
+- Lab 1: Introduction to Jupyter notebooks and Python libraries [day1_code00 basic python](lab_day1/day1_code00%20basic%20python%20%5BEXERCISE%5D.ipynb)
 - Lecture 1: Introduction to deep learning [day1_block01 Introduction to DL](slides)
-- Lab 1: Python libraries [day1_code00 basic python](lab_day1/day1_code00%20basic%20python%20%5BEXERCISE%5D.ipynb)
 - Lecture 2 + Lab 2: MNIST data problem
   -  [day1_block02 A DL-NN for image recognition](slides)
   -  [keras.mnist_train.py](lab_day1/keras.mnist_train.py) [test.py](lab_day1/keras.mnist_test.py)
@@ -36,6 +35,7 @@ various lab folders (e.g. [lab_day1](lab_day1/)).
   - [Tensorflow playground](https://playground.tensorflow.org/)
 
 **Day 2**
+- Lab 2 recap: the MNIST functions explained [day2_code00 keras_MNIST_detailed](lab_day2/day2_code00 keras_MNIST_detailed.ipynb)
 - Lecture 6: Logistic regression	[day2_block01 logistic regression and binary classification](slides)
 - Lab 4: Hands-on logistic regression [day2_code01 logistic regression iris [EXERCISE]](lab_day2)
 - Lecture 7: From logistic regression to neural networks [day2_block02 Neural networks models](slides)
