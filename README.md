@@ -30,9 +30,9 @@ various lab folders (e.g. [lab_day1](lab_day1/)).
 - Lecture 4: Building blocks 1 [day1_block04 Building blocks of DL](slides)
 - Lecture 5: Introduction to Keras [day1_block05 Keras](slides)
 - Lab 3: Play with keras + Tensorflow Playground
-  - [day1_block06 day1 wrap-up](slides)
   - [day1_code02 keras basics](lab_day1/day1_code02%20keras%20basics%20%5BEXERCISE%5D.ipynb)
   - [Tensorflow playground](https://playground.tensorflow.org/)
+  - [day1_block06 day1 wrap-up](slides)
 
 **Day 2**
 - Lab 2 recap: the MNIST functions explained [day2_code00 keras_MNIST_detailed](lab_day2/day2_code00_keras_MNIST_detailed.ipynb)
