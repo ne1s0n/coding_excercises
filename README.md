@@ -19,7 +19,7 @@ various lab folders (e.g. [lab_day1](lab_day1/)).
 ## Course Timetable
 
 **Day 1**
-- Lecture 0: Introducing the course,the instructors and the participants [day1_block00 Introductions](slides/day1_block00%20Introductions.pdf)
+- Lecture 0: Introducing the course,the instructors and the participants [day1_block00 Introductions](slides/)
 - Lab 1: Introduction to Jupyter notebooks and Python libraries [day1_code00 basic python](lab_day1/day1_code00%20basic%20python%20%5BEXERCISE%5D.ipynb)
 - Lecture 1: Introduction to deep learning [day1_block01 Introduction to DL](slides)
 - Lecture 2 + Lab 2: MNIST data problem
@@ -30,9 +30,9 @@ various lab folders (e.g. [lab_day1](lab_day1/)).
 - Lecture 4: Building blocks 1 [day1_block04 Building blocks of DL](slides)
 - Lecture 5: Introduction to Keras [day1_block05 Keras](slides)
 - Lab 3: Play with keras + Tensorflow Playground
-  - [day1_block06 day1 wrap-up](slides)
   - [day1_code02 keras basics](lab_day1/day1_code02%20keras%20basics%20%5BEXERCISE%5D.ipynb)
   - [Tensorflow playground](https://playground.tensorflow.org/)
+  - [day1_block06 day1 wrap-up](slides)
 
 **Day 2**
 - Lab 2 recap: the MNIST functions explained [day2_code00 keras_MNIST_detailed](lab_day2/day2_code00_keras_MNIST_detailed.ipynb)
