@@ -19,7 +19,7 @@ various lab folders (e.g. [lab_day1](lab_day1/)).
 ## Course Timetable
 
 **Day 1**
-- Lecture 0: Introducing the course,the instructors and the participants [day1_block00 Introductions](slides)
+- Lecture 0: Introducing the course,the instructors and the participants [day1_block00 Introductions](slides/day1_block00%20Introductions.pdf)
 - Lab 1: Introduction to Jupyter notebooks and Python libraries [day1_code00 basic python](lab_day1/day1_code00%20basic%20python%20%5BEXERCISE%5D.ipynb)
 - Lecture 1: Introduction to deep learning [day1_block01 Introduction to DL](slides)
 - Lecture 2 + Lab 2: MNIST data problem
