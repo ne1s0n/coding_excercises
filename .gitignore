@@ -39,7 +39,7 @@ vignettes/*.pdf
 .Renviron
 
 # Python notebook checkpoints
-python/.ipynb_checkpoints/
+*/.ipynb_checkpoints/
 
 # data
 data/*
