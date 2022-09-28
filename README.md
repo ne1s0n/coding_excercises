@@ -1,5 +1,5 @@
 # What is this?
-This repo contains slides and datasets used in the 2021 course [Introduction to deep learning for biologists](https://www.physalia-courses.org/courses-workshops/course67/). Material is released during the course week and will stay online a few months after the course.
+This repo contains slides and datasets used in the 2022 course [Introduction to deep learning for biologists](https://www.physalia-courses.org/courses-workshops/course67/). Material is released during the course week and will stay online a few months after the course.
 
 Exercises are in the form of [jupyter notebooks](https://jupyter.org/) and can be either downloaded and run locally or explored online via platforms such as [Binder](https://mybinder.org/), [Google Colab](https://colab.research.google.com/) (a free Google account is required) or [Kaggle Notebooks](https://www.kaggle.com/notebooks) (a free Kaggle account plus phone verification is required).
 
@@ -9,7 +9,7 @@ This section moved to the code-only repo [bioinformateachers](https://github.com
 
 ## Slides
 
-[Here you find](slides) all the slides used in the course.
+[Here you find](slides) all the slides used in the course (we upload them at the end of each day).
 
 ## Codes
 
