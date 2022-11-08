@@ -9,7 +9,7 @@ This section moved to the code-only repo [bioinformateachers](https://github.com
 
 ## Slides
 
-[Here you find](./) all the slides used in the course (we upload them at the end of each day).
+[Here you find](coding_exercises) all the slides used in the course (we upload them at the end of each day).
 
 ## Codes
 
