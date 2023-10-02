@@ -67,15 +67,15 @@ various lab folders (e.g. [lab_day1](lab_day1/)).
 - Lab 14: Semi-automated hyperparameters-tuning [day4_block05 day 4 wrap-up](lab_day4)
   
 **Day 5**
-- Lecture 12 Transfer learning [day4_block02 Architectures and transfer learning](slides)
-- Lecture 15: RNN theory [day5_block01 RNN models](slides)
-- Lab 11: RNN lab
-  - [day5_code01 RNN-1](lab_day5)
-  - [day5_code01 RNN-2](lab_day5)
-  - [day5_code01 RNN-3](lab_day5)
+- Lecture 14 Transfer learning [day5_block01 Architectures and transfer learning](slides) + [day5_code01_chest_x_rays_models.ipynb](lab_day5)
+- Lecture 15: RNN theory - part 2 [day5_block02 RNN models #2](slides)
+- Lab 15: RNN lab
+  - [day4_code02 RNN-models](lab_day4)
+  - [day5_code02 RNN-time series data](lab_day5)
+  - [day5_code03 RNN-text data](lab_day5)
 - Lecture 16: Segmentation + demo
-  - [day5_block02 Image Segmentation](slides)
+  - [day5_block03 Image Segmentation](slides)
   - [day5_code04 segmentation metrics](lab_day5)
   - [day5_code05 U-Net](lab_day5)
-- Kahoot Quiz
+- Final Quiz
 - Wrap-up discussion
