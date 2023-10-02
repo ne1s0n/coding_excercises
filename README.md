@@ -45,14 +45,14 @@ various lab folders (e.g. [lab_day1](lab_day1/)).
 - Quick snippet: Neural Networks for feature selection [demo](lab_day2/day2_code04_feature_selection_[PILL].ipynb)
 
 **Day 3**
-- Lecture 8 Multiclass classification and softmax regression [day2_block03 Multiclass classification](slides)
-- Lab 6: Multiclass classification and softmax regression [day2_block03 Multiclass classification](lab_day2) + [day2_code03 keras multiclass classification](lab_day2)
-- Lecture 9: Cross-validation	[day3_block01 Crossvalidation](slides)
-- Lab 7: Practical cross-validation with deep learning [day3_code01 heart disease crossv.ipynb](lab_day3)
-- Lecture 10: Building blocks 2 [day3_block02 Building blocks of DL #2](slides)
-- Lab 8: Looking inside convolutions [day3_code02 inside convolution.ipynb](lab_day3)
+- Lecture 8 Multiclass classification and softmax regression [day3_block01 Multiclass classification](slides)
+- Lab 6: Multiclass classification and softmax regression [day2_code03 keras multiclass classification](lab_day3/day3_code01_keras_multiclass_classification.ipynb)
+- Lecture 9: Cross-validation	[day3_block02 Crossvalidation](slides)
+- Lab 7: Practical cross-validation with deep learning [day3_code02 heart disease crossv.ipynb](lab_day3)
+- Lecture 10: Building blocks 2 [day3_block03 Building blocks of DL #2](slides)
+- Lab 8: Looking inside convolutions [day3_code03 inside convolution.ipynb](lab_day3/day3_code03_inside_convolution.ipynb)
 - Exercise: Deep learning models [day3_code03 heart disease crossv [EXERCISE].ipynb](lab_day3)
-- Day 3 wrap-up discussion [day3_block03 day 3 wrap-up](slides)
+- Day 3 wrap-up discussion [day3_block04 day 3 wrap-up](slides)
 
 **Day 4**
 - Lecture 11 Data generators and data augmentation
