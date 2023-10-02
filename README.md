@@ -5,7 +5,7 @@ Exercises are in the form of [jupyter notebooks](https://jupyter.org/) and can b
 
 ## Python - basic skills
 
-This section moved to the code-only repo [bioinformateachers](https://github.com/ne1s0n/bioinformateachers), which supports the bioinformatics-oriented educational website [The Bioinformateachers](https://bioinformateachers.wordpress.com/).
+This section moved to the code-only repo [bioinformateachers](https://github.com/ne1s0n/bioinformateachers), which supports the bioinformatics-oriented educational website [The Bioinformateachers](https://bioinformateachers.github.io/).
 
 ## Slides
 
