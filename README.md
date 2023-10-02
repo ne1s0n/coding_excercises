@@ -20,10 +20,10 @@ various lab folders (e.g. [lab_day1](lab_day1/)).
 
 **Day 1**
 - Lecture 0: Introducing the course,the instructors and the participants [day1_block00 Introductions](slides/)
-- Lab 1: Introduction to Jupyter notebooks and Python libraries [day1_code00 basic python](lab_day1/day1_code00%20basic%20python%20%5BEXERCISE%5D.ipynb)
-- Lecture 1: Introduction to deep learning [day1_block01 Introduction to DL](slides)
+- Lab 1: Introduction to Jupyter notebooks and Python libraries [day1_code00 basic python](lab_day1/day1_code00_basic_python_[EXERCISE].ipynb)
+- Lecture 1: Introduction to deep learning [day1_block01 Introduction to DL](slides/)
 - Lecture 2 + Lab 2: MNIST data problem
-  -  [day1_block02 A DL-NN for image recognition](slides)
+  -  [day1_block02 A DL-NN for image recognition](slides/)
   -  [keras.mnist_train.py](lab_day1/keras.mnist_train.py) [test.py](lab_day1/keras.mnist_test.py)
   -  [day1_code01 keras_MNIST](lab_day1/day1_code01%20keras_MNIST.ipynb)
 - Lecture 3: Supervised learning [day1_block03 supervised_learning](slides)
