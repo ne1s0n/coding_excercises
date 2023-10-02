@@ -30,22 +30,23 @@ various lab folders (e.g. [lab_day1](lab_day1/)).
 - Lecture 4: Building blocks 1 [day1_block04 Building blocks of DL](slides)
 - Lecture 5: Introduction to Keras [day1_block05 Keras](slides)
 - Lab 3: Play with keras + Tensorflow Playground
-  - [day1_code02 keras basics](lab_day1/day1_code02%20keras%20basics%20%5BEXERCISE%5D.ipynb)
+  - [day1_code02 keras basics](lab_day1/day1_code02_keras_basics_[EXERCISE].ipynb)
   - [Tensorflow playground](https://playground.tensorflow.org/)
   - [day1_block06 day1 wrap-up](slides)
 
 **Day 2**
 - Lab 2 recap: the MNIST functions explained [day2_code00 keras_MNIST_detailed](lab_day2/day2_code00_keras_MNIST_detailed.ipynb)
 - Lecture 6: Logistic regression	[day2_block01 logistic regression and binary classification](slides)
-- Lab 4: Hands-on logistic regression [day2_code01 logistic regression iris [EXERCISE]](lab_day2)
-- Lecture 7: From logistic regression to neural networks [day2_block02 Neural networks models](slides)
+- Lab 4: Hands-on logistic regression [day2_code01 logistic regression iris [EXERCISE]](lab_day2/day2_code01 logistic regression iris [EXERCISE].ipynb)
+- Lecture 7a: From logistic regression to neural networks [day2_block02 Neural networks models](slides)
 - Lecture 7b: Deep neural networks	[day2_block02 Neural networks models](slides)
-- Lab 5: Hands-on neural networks models [day2_code02 keras shallow neural networks](lab_day2)
-- Lecture 8 Multiclass classification and softmax regression [day2_block03 Multiclass classification](slides)
-- Lab 6: Multiclass classification and softmax regression [day2_block03 Multiclass classification](lab_day2) + [day2_code03 keras multiclass classification](lab_day2)
-- Students exercise: Neural networks models [day2_code04 neural networks [EXERCISE]](lab_day2)
+- Lab 5: Hands-on neural networks models [day2_code02 keras shallow neural networks](lab_day2/day2_code02 keras shallow neural networks.ipynb)
+- Students exercise: Neural networks models [day2_code04 neural networks [EXERCISE]](lab_day2/day2_code03_neural_networks_[EXERCISE].ipynb)
+- Quick snippet: Neural Networks for feature selection [demo](lab_day2/day2_code04_feature_selection_[PILL].ipynb)
 
 **Day 3**
+- Lecture 8 Multiclass classification and softmax regression [day2_block03 Multiclass classification](slides)
+- Lab 6: Multiclass classification and softmax regression [day2_block03 Multiclass classification](lab_day2) + [day2_code03 keras multiclass classification](lab_day2)
 - Lecture 9: Cross-validation	[day3_block01 Crossvalidation](slides)
 - Lab 7: Practical cross-validation with deep learning [day3_code01 heart disease crossv.ipynb](lab_day3)
 - Lecture 10: Building blocks 2 [day3_block02 Building blocks of DL #2](slides)
