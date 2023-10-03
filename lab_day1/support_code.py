@@ -35,6 +35,7 @@ print("importing libraries")
 ## tensorflow and keras
 import tensorflow as tf
 import tensorflow.keras.utils
+from tensorflow import keras
 from keras.models import Sequential
 from keras.layers import Dense, Dropout, Activation, Flatten
 from keras.layers import Conv2D, MaxPooling2D
@@ -59,12 +60,24 @@ import sklearn.metrics
 
 ## FUNCTIONS
 print("Defining functions")
-def set_seeds(n):
+def set_seeds(n, enable_determinism=True):
 
   #general random seed
-  seed(n)
+  #seed(n)
   #tensorflow-specific seed
-  tf.random.set_seed(n)
+  #tf.random.set_seed(n)
+
+  # Set the seed using keras.utils.set_random_seed. This will set:
+  # 1) `numpy` seed
+  # 2) `tensorflow` random seed
+  # 3) `python` random seed
+  keras.utils.set_random_seed(n)
+
+  # This will make TensorFlow ops as deterministic as possible, but it will
+  # affect the overall performance, so it's not enabled by default.
+  # `enable_op_determinism()` is introduced in TensorFlow 2.9.
+  if enable_determinism:
+  	tf.config.experimental.enable_op_determinism()
 
 def load_data(ntrain,ntest):
     # the data, split between train and test sets
