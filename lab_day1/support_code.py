@@ -130,7 +130,7 @@ def preprocess(X_train,X_test,y_train,y_test,img_rows,img_cols,num_classes):
 
 def build_model(input_shape, num_classes, seed):
     
-    reset_random_seeds(seed)
+    reset_random_seeds(nseed=seed) ##enable_determinism is by default set to False
     model = Sequential()
     model.add(
           Conv2D(32, kernel_size=(3, 3),
