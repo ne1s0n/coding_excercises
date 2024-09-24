@@ -44,11 +44,11 @@ from keras.datasets import mnist
 from tensorflow.keras.utils import to_categorical
  
 ## numpy
-import numpy as np
-from numpy.random import seed
+#import numpy as np
+#from numpy.random import seed
 
 ## matplotlib
-from matplotlib import pyplot as plt
+#from matplotlib import pyplot as plt
 
 ## sklearn
 import sklearn.metrics
@@ -79,7 +79,7 @@ def set_seeds(n, enable_determinism=True):
   if enable_determinism:
   	tf.config.experimental.enable_op_determinism()
       
-def reset_random_seeds(n1, n2, enable_determinism=False):
+def reset_random_seeds(n1, enable_determinism=False):
     tf.keras.utils.set_random_seed(n1)
     #np.random.seed(n2)
     if enable_determinism:
@@ -128,9 +128,9 @@ def preprocess(X_train,X_test,y_train,y_test,img_rows,img_cols,num_classes):
     return(X_train,X_test,y_train,y_test,input_shape)
 
 
-def build_model(input_shape, num_classes, n1, n2):
+def build_model(input_shape, num_classes, seed):
     
-    reset_random_seeds(n1,n2)
+    reset_random_seeds(seed)
     model = Sequential()
     model.add(
           Conv2D(32, kernel_size=(3, 3),
