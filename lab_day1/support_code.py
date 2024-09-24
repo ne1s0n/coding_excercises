@@ -45,7 +45,7 @@ from tensorflow.keras.utils import to_categorical
  
 ## numpy
 import numpy as np
-from numpy.random import seed
+#from numpy.random import seed
 
 ## matplotlib
 from matplotlib import pyplot as plt
@@ -135,7 +135,8 @@ def build_model(input_shape, num_classes, seed):
     model.add(
           Conv2D(32, kernel_size=(3, 3),
           activation='relu',
-          input_shape=input_shape))
+          input_shape=(input_shape)
+          ))
 
     model.add(Conv2D(64, (3, 3), activation='relu'))
     model.add(MaxPooling2D(pool_size=(2, 2)))
