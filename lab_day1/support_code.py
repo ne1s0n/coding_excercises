@@ -79,8 +79,8 @@ def set_seeds(n, enable_determinism=True):
   if enable_determinism:
   	tf.config.experimental.enable_op_determinism()
       
-def reset_random_seeds(n1, enable_determinism=False):
-    tf.keras.utils.set_random_seed(n1)
+def reset_random_seeds(nseed, enable_determinism=False):
+    tf.keras.utils.set_random_seed(nseed)
     #np.random.seed(n2)
     if enable_determinism:
         tf.config.experimental.enable_op_determinism()
