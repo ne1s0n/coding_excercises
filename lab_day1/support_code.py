@@ -78,6 +78,12 @@ def set_seeds(n, enable_determinism=True):
   # `enable_op_determinism()` is introduced in TensorFlow 2.9.
   if enable_determinism:
   	tf.config.experimental.enable_op_determinism()
+      
+def reset_random_seeds(n1, n2, enable_determinism=True):
+    tf.keras.utils.set_random_seed(n1)
+    np.random.seed(n2)
+    if enable_determinism:
+        tf.config.experimental.enable_op_determinism()
 
 def load_data(ntrain,ntest):
     # the data, split between train and test sets
@@ -122,8 +128,9 @@ def preprocess(X_train,X_test,y_train,y_test,img_rows,img_cols,num_classes):
     return(X_train,X_test,y_train,y_test,input_shape)
 
 
-def build_model(input_shape, num_classes):
-
+def build_model(input_shape, num_classes, n1, n2):
+    
+    reset_random_seeds(n1,n2)
     model = Sequential()
     model.add(
           Conv2D(32, kernel_size=(3, 3),
