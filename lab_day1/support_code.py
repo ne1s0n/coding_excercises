@@ -44,11 +44,11 @@ from keras.datasets import mnist
 from tensorflow.keras.utils import to_categorical
  
 ## numpy
-#import numpy as np
-#from numpy.random import seed
+import numpy as np
+from numpy.random import seed
 
 ## matplotlib
-#from matplotlib import pyplot as plt
+from matplotlib import pyplot as plt
 
 ## sklearn
 import sklearn.metrics
