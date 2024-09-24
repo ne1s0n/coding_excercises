@@ -132,10 +132,10 @@ def build_model(input_shape, num_classes, seed):
     
     reset_random_seeds(nseed=seed) ##enable_determinism is by default set to False
     model = Sequential()
+    model.add(tf.keras.Input(input_shape))
     model.add(
           Conv2D(32, kernel_size=(3, 3),
-          activation='relu',
-          input_shape=(input_shape)
+          activation='relu'
           ))
 
     model.add(Conv2D(64, (3, 3), activation='relu'))
