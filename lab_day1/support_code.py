@@ -187,7 +187,15 @@ def evaluate_model(model,X_test,y_test):
     
     return (score, confusion_matrix)
 
-
+def plot_loss_history(h, title):
+    
+    plt.plot(h.history['loss'], label = "Train loss")
+    plt.plot(h.history['val_loss'], label = "Validation loss")
+    plt.xlabel('Epochs')
+    plt.title(title)
+    plt.legend()
+    plt.show()
+    
 ##########################################################
 
 print("DONE!")
