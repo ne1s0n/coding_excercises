@@ -27,7 +27,7 @@ Configuration parameters
 """
 batch_size = 128 ## n. of samples/records in each batch
 num_classes = 10
-epochs = 12
+epochs = 10
 
 # input image dimensions (pixels)
 img_rows, img_cols = 28, 28
@@ -39,8 +39,8 @@ Input data
 (X_train, y_train), (X_test, y_test) = mnist.load_data()
 
 ## subsampling the data
-X_train = X_train[0:15000,]
-y_train = y_train[0:15000]
+X_train = X_train[0:5000,]
+y_train = y_train[0:5000]
 X_test = X_test[0:1000,]
 y_test = y_test[0:1000]
 
@@ -124,7 +124,7 @@ with open("model.json", "w") as json_file:
     json_file.write(model_json)
 
 # serialize weights to HDF5
-model.save_weights("model.h5")
+model.save_weights("model.weights.h5")
 
 print("Saved model to disk")
 
