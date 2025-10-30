@@ -64,7 +64,7 @@ various lab folders (e.g. [lab_day1](lab_day1/)).
 - Lab 11: Recap exercise [day4_code03 chest x rays (data augm, regul) [EXERCISE]](lab_day4)
 - Lab 12: Under/Over fitting [day4_code04_under_over_fitting.ipynb](lab_day4) and Double descent	[day4_block04 Bias-Variance Trade-off and double descent](slides)
 - Lab 13: Deep learning for regression [day4_code05 keras regression [EXERCISE]](lab_day4)
-- Lab 14: Semi-automated hyperparameters-tuning [day4_block05 day 4 wrap-up](lab_day4)
+- Lab 14: Semi-automated hyperparameters-tuning [day4_code06_KerasTuner_[PILL].ipynb](lab_day4)
   
 **Day 5**
 - Lecture 14 Transfer learning [day5_block01 Architectures and transfer learning](slides) + [day5_code01_chest_x_rays_models.ipynb](lab_day5)
