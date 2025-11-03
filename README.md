@@ -82,5 +82,8 @@ various lab folders (e.g. [lab_day1](lab_day1/)).
     - [day5_block03 Image Segmentation](slides)
     - [day5_code04 segmentation metrics](lab_day5)
     - [day5_code05 U-Net](lab_day5)
+- Optional
+    - [day5_code06 transformers](lab_day5)
+    - [day5_code07 ProtBERT](lab_day5)
 - Final Quiz
 - Wrap-up discussion
