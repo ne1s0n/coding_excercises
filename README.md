@@ -26,7 +26,7 @@ various lab folders (e.g. [lab_day1](lab_day1/)).
 - Lecture 2 + Lab 2: MNIST data problem
     -  [day1_block02 A DL-NN for image recognition](slides/)
     -  [keras.mnist_train.py](lab_day1/keras.mnist_train.py) [test.py](lab_day1/keras.mnist_test.py)
-    -  [day1_code01 keras_MNIST](lab_day1/day1_code01%20keras_MNIST.ipynb)
+    -  [day1_code01 keras_MNIST](lab_day1/day1_code01 keras_MNIST.ipynb)
 - Lecture 3: Supervised learning [day1_block03 supervised_learning](slides)
 - Lecture 4: Building blocks 1 [day1_block04 Building blocks of DL](slides)
 - Lecture 5: Introduction to Keras [day1_block05 Keras](slides)
